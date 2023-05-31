@@ -18,30 +18,40 @@ Ukoliko želite da koristite aplikaciju bez instalacija i konfiguracija dovoljno
 
 Ukoliko želite lokalno da koristite projekat onda je potrebno uraditi sljedeće korake:
 
-1. Klonirati i podesiti frontend
+1. Klonirati repozitorijum
 
 ```
-git clone -b master https://github.com/feratovic/python-yolov5-with-export.git
-cd python-yolov5-with-export
+git clone https://github.com/feratovic/napredno-programiranje.git
+```
+
+2. Podesiti frontend
+
+```
+cd client
 npm install
-npm start
+```
+
+Dodati .env fajl:
+
+```
+REACT_APP_API_URL=http://127.0.0.1:5000/api #or your server base url
 ```
 
 pristupna tačka je: http://localhost:3000
 
-2. Klonirati i podesiti bekend
+2. Podesiti bekend
 
 ```
-git clone -b master https://github.com/feratovic/python-backend-ai.git
-cd python-backend-ai
+cd server
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt # Ovim se instaliraju potrebne biblioteke za detekciju objekata
-pip install Flask, flask_cors, pandas, openpyxl
 python3 app.py
 ```
 
-pristupna tačka je: http://localhost:8000
+**NAPOMENA** provjerite koju veriziju pythona koristite. Moguce je da vasa masina koristi python3 za pokretanje.
+
+pristupna tačka je: http://localhost:5000/api
 
 ## Upotreba
 
