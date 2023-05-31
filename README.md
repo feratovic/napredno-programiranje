@@ -50,7 +50,8 @@ pristupna tačka je: http://localhost:3000
 ```
 cd server
 python3 -m venv venv
-source venv/bin/activate #za windows ova komanda nije potrebna ukoliko ste podesili sve kako treba pri instalacija python-a
+.\venv\Scripts\activate #za windows inace preskociti
+source venv/bin/activate #za ubuntu
 pip install -r requirements.txt # Ovim se instaliraju potrebne biblioteke za detekciju objekata
 python3 app.py
 ```

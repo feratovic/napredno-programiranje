@@ -16,7 +16,7 @@ torch>=1.7.0  # see https://pytorch.org/get-started/locally (recommended)
 torchvision>=0.8.1
 tqdm>=4.64.0
 ultralytics>=8.0.100
-Flask
+flask
 flask_cors
 pandas
 openpyxl
