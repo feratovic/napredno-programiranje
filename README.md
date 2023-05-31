@@ -37,6 +37,12 @@ Dodati .env fajl:
 REACT_APP_API_URL=http://127.0.0.1:5000/api #or your server base url
 ```
 
+Pokrenuti aplikaciju:
+
+```
+npm start
+```
+
 pristupna tačka je: http://localhost:3000
 
 3. Podesiti bekend
@@ -44,15 +50,16 @@ pristupna tačka je: http://localhost:3000
 ```
 cd server
 python3 -m venv venv
-source venv/bin/activate
+source venv/bin/activate #za windows ova komanda nije potrebna ukoliko ste podesili sve kako treba pri instalacija python-a
 pip install -r requirements.txt # Ovim se instaliraju potrebne biblioteke za detekciju objekata
 python3 app.py
 ```
 
-**NAPOMENA** provjerite koju veriziju pythona koristite. Moguce je da vasa masina koristi python3 za pokretanje.
-Provjeriti /static/uploads folder. Ukoliko nepostoji krerati novi prazni na lokaciji /static.
+**NAPOMENA**
 
-Snimci koje je generisao bekend tokom analize nalaze se u runs/detect/\*/ime_fajla
+- provjerite koju veriziju pythona koristite. Moguce je da vasa masina koristi python za pokretanje.
+- Provjeriti /static/uploads folder. Ukoliko nepostoji krerati novi prazni na lokaciji /static.
+- Snimci koje je generisao bekend tokom analize nalaze se u runs/detect/\*/ime_fajla
 
 pristupna tačka je: http://localhost:5000/api
 
