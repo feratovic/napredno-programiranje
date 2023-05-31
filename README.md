@@ -39,7 +39,7 @@ REACT_APP_API_URL=http://127.0.0.1:5000/api #or your server base url
 
 pristupna tačka je: http://localhost:3000
 
-2. Podesiti bekend
+3. Podesiti bekend
 
 ```
 cd server
