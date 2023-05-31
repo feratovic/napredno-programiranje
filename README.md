@@ -52,6 +52,8 @@ python3 app.py
 **NAPOMENA** provjerite koju veriziju pythona koristite. Moguce je da vasa masina koristi python3 za pokretanje.
 Provjeriti /static/uploads folder. Ukoliko nepostoji krerati novi prazni na lokaciji /static.
 
+Snimci koje je generisao bekend tokom analize nalaze se u runs/detect/\*/ime_fajla
+
 pristupna tačka je: http://localhost:5000/api
 
 ## Upotreba
