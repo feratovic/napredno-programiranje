@@ -1,0 +1,26 @@
+.container{
+    border: 2px dashed #6D96F3;
+    border-radius: 6px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+ 
+
+#caption, #text-success {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #6D96F3;
+    text-align: center;
+    padding: 4rem;
+}
+
+
+#text-success{
+    color: #229091;
+}
