@@ -16,6 +16,13 @@ Ovaj projekat omogućava slanje video snimaka sa React-om sa klijentske strane, 
 
 Ukoliko želite da koristite aplikaciju bez instalacija i konfiguracija dovoljno je da pokrenete virtuelnu mašinu i aplikacija će sa sama startovati.
 
+Da bi projekat mogao da se podesi potrebno na svom racunaru da imate instalirane sljedece biblioteke:
+
+- npm
+- nodejs
+- python ili python3
+- pip
+
 Ukoliko želite lokalno da koristite projekat onda je potrebno uraditi sljedeće korake:
 
 1. Klonirati repozitorijum
@@ -52,6 +59,7 @@ cd server
 python3 -m venv venv
 .\venv\Scripts\activate #za windows inace preskociti
 source venv/bin/activate #za ubuntu
+# Na ovom koraku moguce je da dodje do greske koje moze biti rijesena sa export PYTHONUTF8=1
 pip install -r requirements.txt # Ovim se instaliraju potrebne biblioteke za detekciju objekata
 python3 app.py
 ```
