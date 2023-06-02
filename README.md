@@ -5,6 +5,7 @@
 - [Uvod](#uvod)
 - [Instalacija](#instalacija)
 - [Upotreba](#upotreba)
+- [Primjer obrade](#primjer-obade)
 - [API Dokumentacija](#api-dokumentacija)
 - [Licenca](#licenca)
 
@@ -75,6 +76,12 @@ pristupna tačka je: http://localhost:5000/api
 ## Upotreba
 
 Nakon što se projekat pokrene i forma za unos snimka se prikaže na http://localhost:3000 dovoljno je samo kliknuti na prostor za unos snimka ili prevući sam snimak na taj prostor. Nakon toga front će preći u stanje čekanja dok se video obrađuje na bekendu. Nakon obrađenog video snimka bekend će poslati gotovi excel fajl klijentu i istovremeno automatski ga preuzeti i poruka za uspješnu akciju biće prikaza. U suprotnom pojaviće se poruka za grešku.
+
+## Primjer obrade
+
+![Obrada snimka](https://raw.githubusercontent.com/feratovic/napredno-programiranje/main/example.png)
+
+![Podaci sa snimka](https://raw.githubusercontent.com/feratovic/napredno-programiranje/main/example2.png)
 
 ## API dokumentacija
 
